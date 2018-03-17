@@ -9,12 +9,15 @@ We'll be writing the results of our work out to another JSON file, `results.json
 * Run `npm install` to install dependencies
 * Look in the starter file called `google-shopping.js`. We'll be using Node to read the JSON file and access it as a JavaScript object
 * Run the file by typing `node google-shopping.js` into the console. If you get items printing out, you're ready to start on the assignment.
+* You will be storing results of running the file in `results.json`
 
 ## Deliverables
 
 Use the product search result in your file to find the following results. Note that you may want to comment out your solutions as you solve them, to avoid a mess of output in the terminal.
 
 Remember to type `node google-shopping.js` to run the file.
+
+When you get to problem 2, you will need to change the way you store the results. Try making a key for each thing you are storing.
 
 1.) Go through the `items` and find all results that have `kind` of `shopping#product`. Print the count of these results. Where else is this count information stored in the search results?
 
@@ -38,6 +41,16 @@ Remember to type `node google-shopping.js` to run the file.
   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+
+## Extra:
+Write the program so that it will take a command line argument that gets back out the value that you recorded in `results.json`
+
+Example command where you have a key named `titleBackorderInventories`: `node google-shopping.js getkey titleBackorderInventories`
+
+## Extra:
+Take the google shopping functions exercise: [https://github.com/wdi-sg/google-shopping-functions](https://github.com/wdi-sg/google-shopping-functions) and store the info recorded there into a results.json file.
+
+Make a key for storing the result of each function.
 
 ---
 
