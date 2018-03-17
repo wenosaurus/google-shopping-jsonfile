@@ -2,31 +2,31 @@
 
 We'll be using a file represented as **JSON** for this assignment. JSON is a standard for formatting data, and it's a common format you'll see throughout your web development career. Even more important will be parsing JSON.
 
+We'll be writing the results of our work out to another JSON file, `results.json`
+
 ## Getting Started
 * Fork and clone this repository to your computer
 * Run `npm install` to install dependencies
-* Look in the starter file in `js`, called `google-shopping.js`. We'll be using Node to read the JSON file and access it as a JavaScript object
-* Run the file by typing `node js/google-shopping.js` into the console. If you get items printing out, you're ready to start on the assignment.
-  * Alternatively, `npm start` can also be used
-  * Alternatively, you can also create a separate file for each problem. Keep in mind you'll want to use the `node` command instead of `npm start` when dealing with multiple files.
+* Look in the starter file called `google-shopping.js`. We'll be using Node to read the JSON file and access it as a JavaScript object
+* Run the file by typing `node google-shopping.js` into the console. If you get items printing out, you're ready to start on the assignment.
 
 ## Deliverables
 
 Use the product search result in your file to find the following results. Note that you may want to comment out your solutions as you solve them, to avoid a mess of output in the terminal.
 
-Remember to type `node js/google-shopping.js` to run the file (or `npm start`).
+Remember to type `node google-shopping.js` to run the file.
 
 1.) Go through the `items` and find all results that have `kind` of `shopping#product`. Print the count of these results. Where else is this count information stored in the search results?
 
-2.) Print the `title` of all items with a `backorder` availability in `inventories`.
+2.) Save the `title` of all items with a `backorder` availability in `inventories`.
 
-3.) Print the `title` of all items with more than one image link.
+3.) Save the `title` of all items with more than one image link.
 
-4.) Print all "Canon" products in the items (careful with case sensitivity).
+4.) Save all "Canon" products in the items (careful with case sensitivity).
 
-5.) Print all `items` that have an author name of "eBay" and are brand "Canon".
+5.) Save all `items` that have an author name of "eBay" and are brand "Canon".
 
-6.) Print all the products with their **brand**, **price**, and an **image link**
+6.) Save all the products with their **brand**, **price**, and an **image link**
 
 
 ## Hints
