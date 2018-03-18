@@ -45,7 +45,7 @@ When you get to problem 2, you will need to change the way you store the results
 ## Extra:
 Write the program so that it will take a command line argument that gets back out the value that you recorded in `results.json`
 
-For the instruction #2 above: `Save the title of all items with a backorder availability in inventories.` you might have stored a key called: `titleBackorderInventories`
+For the instruction #2 above: `Save the title of all items with a backorder availability in inventories.` you might have stored that result under a key called: `titleBackorderInventories`
 
 If you ran `node google-shopping.js getkey titleBackorderInventories` that should get the result of that instruction.
 
