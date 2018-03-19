@@ -6,7 +6,7 @@ We'll be writing the results of our work out to another JSON file, `results.json
 
 ## Getting Started
 * Fork and clone this repository to your computer
-* Run `npm install` to install dependencies
+* Run `yarn install` to install dependencies
 * Look in the starter file called `google-shopping.js`. We'll be using Node to read the JSON file and access it as a JavaScript object
 * Run the file by typing `node google-shopping.js` into the console. If you get items printing out, you're ready to start on the assignment.
 * You will be storing results of running the file in `results.json`
