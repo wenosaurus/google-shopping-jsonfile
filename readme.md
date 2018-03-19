@@ -13,7 +13,7 @@ We'll be writing the results of our work out to another JSON file, `results.json
 
 ## Deliverables
 
-Use the product search result in products.json to find the following results. 
+Use the product search result in products.json to find the following results.
 
 To "save" something, the rough order is to write code that gets the values, add them to an object key-value pair, and write the object into a file (`results.json`). Try making a key for each thing you are storing (eg. `{ "titleBackorderInventories": [] }`).
 
@@ -34,15 +34,23 @@ To "save" something, the rough order is to write code that gets the values, add 
 * Note that you may want to comment out your solutions as you solve them, to avoid a mess of output in the terminal.
 * Remember to type `node google-shopping.js` to run the file each time you've made changes.
 
+#### Answers from the last exercise without Node
+
+Feel free to use the answers from your previous exercise. If you don't have your own answers, you can also use the answers provided below.
+
+Remember: the point of this exercise is about command line and node, not how to access objects and arrays.
+
+Refer to [`previous-answers.js`](previous-answers.js) file for answers from previous exercise on google-shopping-conditionals-loops. (Code courtesy of [Jerome](https://github.com/stonefruit/google-shopping-conditionals-loops/blob/4e926e4d9e73335c622ac76737bf69eb4b108e0f/script.js), with some light modification.)
+
 ## Hints
 
 * We'll be dealing with large JSON objects quite frequently throughout the course. Use a Chrome extension such as [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) in order to easily collapse arrays and objects during this assignment. Once the extension is installed, access the JSON file via Github by going to **products.json**, then clicking **Raw** right above the file.
 * When in doubt, think about the different functions available for **strings**, **objects**, and **arrays**.
 * Double-check your results, especially with #5
 * Documentation
-  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
-  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 
 ## Extra:
 
