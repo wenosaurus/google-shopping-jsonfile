@@ -15,7 +15,7 @@ We'll be writing the results of our work out to another JSON file, `results.json
 
 Use the product search result in products.json to find the following results. 
 
-To "save" something, the rough order is to write code that gets the values, add them to an object key-value pair, and write the object into a file (results.json). Try making a key for each thing you are storing (eg. `{ "withBackorderAvailability": ["foo", "bar"] }`).
+To "save" something, the rough order is to write code that gets the values, add them to an object key-value pair, and write the object into a file (`results.json`). Try making a key for each thing you are storing (eg. `{ "titleBackorderInventories": [] }`).
 
 1. Go through the `items` and find all results that have `kind` of `shopping#product`. Print the count of these results. Where else is this count information stored in the search results?
 
@@ -45,11 +45,12 @@ To "save" something, the rough order is to write code that gets the values, add 
   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 
 ## Extra:
-Write the program so that it will take a command line argument that gets back out the value that you recorded in `results.json`
 
-For the instruction #2 above: `Save the title of all items with a backorder availability in inventories.` you might have stored that result under a key called: `titleBackorderInventories`
+Modify your program so that it will take 2 arguments on the command line, and output associated value from the saved `results.json`.
 
-If you ran `node google-shopping.js getkey titleBackorderInventories` that should get the result of that instruction.
+For example, for deliverable #2 above -- "Save the title of all items with a backorder availability in inventories." -- you might have stored that result under a key called: `titleBackorderInventories`.
+
+So now, if you ran `node google-shopping.js getkey titleBackorderInventories`, you should see the result being output to Terminal.
 
 ## Extra:
 Take the google shopping functions exercise: [https://github.com/wdi-sg/google-shopping-functions](https://github.com/wdi-sg/google-shopping-functions) and store the info recorded there into a results.json file.
