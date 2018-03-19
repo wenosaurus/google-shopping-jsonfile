@@ -13,24 +13,26 @@ We'll be writing the results of our work out to another JSON file, `results.json
 
 ## Deliverables
 
-Use the product search result in your file to find the following results. Note that you may want to comment out your solutions as you solve them, to avoid a mess of output in the terminal.
+Use the product search result in products.json to find the following results. 
 
-Remember to type `node google-shopping.js` to run the file.
+To "save" something, the rough order is to write code that gets the values, add them to an object key-value pair, and write the object into a file (results.json). Try making a key for each thing you are storing (eg. `{ "withBackorderAvailability": ["foo", "bar"] }`).
 
-When you get to problem 2, you will need to change the way you store the results. Try making a key for each thing you are storing.
+1. Go through the `items` and find all results that have `kind` of `shopping#product`. Print the count of these results. Where else is this count information stored in the search results?
 
-1.) Go through the `items` and find all results that have `kind` of `shopping#product`. Print the count of these results. Where else is this count information stored in the search results?
+2. Save the `title` of all items with a `backorder` availability in `inventories`.
 
-2.) Save the `title` of all items with a `backorder` availability in `inventories`.
+3. Save the `title` of all items with more than one image link.
 
-3.) Save the `title` of all items with more than one image link.
+4. Save all "Canon" products in the items (careful with case sensitivity).
 
-4.) Save all "Canon" products in the items (careful with case sensitivity).
+5. Save all `items` that have an author name of "eBay" and are brand "Canon".
 
-5.) Save all `items` that have an author name of "eBay" and are brand "Canon".
+6. Save all the products with their **brand**, **price**, and an **image link**
 
-6.) Save all the products with their **brand**, **price**, and an **image link**
+#### Things to note
 
+* Note that you may want to comment out your solutions as you solve them, to avoid a mess of output in the terminal.
+* Remember to type `node google-shopping.js` to run the file each time you've made changes.
 
 ## Hints
 
