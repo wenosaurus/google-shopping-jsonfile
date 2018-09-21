@@ -65,6 +65,26 @@ Take the google shopping functions exercise: [https://github.com/wdi-sg/google-s
 
 Make a key for storing the result of each function.
 
+## Extra:
+Your program can take in arguments to search inside on the google shopping json data.
+
+Refactor your program so that you can use a second (or any) set of json data.
+
+There is a second json data file included in this repo called `collection.json` that contains art collection data.
+
+Your finished program should be able to read from either file depending on user input.
+
+
+## Extra:
+Write your program so that the arugment can take in enough data to create a new item in the array (for either set of data).
+
+You also don't have to put a complete (as in the examples) set of data.
+
+There are many ways you could format that data, but here is one example with one possible format:
+```
+node index.js '{ "kind": "shopping#products", "etag": "\"kSuBj73OPkN9HtEsYnzpddO-iYI/Xtf9O47gfjxyM3i-AgbqXTkcxTM\"}'
+```
+
 ---
 
 ## Licensing
