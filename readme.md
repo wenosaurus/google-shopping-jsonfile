@@ -82,7 +82,7 @@ You also don't have to put a complete (as in the examples) set of data.
 
 There are many ways you could format that data, but here is one example with one possible format:
 ```
-node index.js '{ "kind": "shopping#products", "etag": "\"kSuBj73OPkN9HtEsYnzpddO-iYI/Xtf9O47gfjxyM3i-AgbqXTkcxTM\"}'
+node index.js insertgoogleshopping '{ "kind": "shopping#products", "etag": "\"kSuBj73OPkN9HtEsYnzpddO-iYI/Xtf9O47gfjxyM3i-AgbqXTkcxTM\"}'
 ```
 
 ---
